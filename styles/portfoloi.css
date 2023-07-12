@@ -26,8 +26,8 @@ body {
 }
 
 .section-description {
-    Copy color: #757575;
-    text-align: center;
+    color: #757575;
+    s text-align: center;
     font-size: 18px;
 }
 
@@ -102,6 +102,10 @@ nav a {
 }
 
 /* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* abbut section styles */
 .about {
@@ -109,4 +113,13 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+
+.abcont-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
 }
